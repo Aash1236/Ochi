@@ -1,0 +1,18 @@
+navbar
+landing page
+marquee
+about
+playful
+cards
+cards
+ready to start
+footer
+
+
+<div className="masker">
+                    <div className="w-fit flex items-center">
+                        {index === 1 && (<div className='w-[9vw] h-[5vw] relative top-[0.5vw] bg-red-500'></div>)}
+                        <h1 className='flex items-center uppercase text-[7vw] leading-[6vw] tracking-tighter font-medium font-[Test_Founders_Gtsk_X-Cond_SmB]'>
+                    {item}
+                </h1>
+                </div>
