@@ -19,8 +19,8 @@ function LandingPage() {
                   <motion.div
                     initial={{ width: 0 }}
                     animate={{ width: "9vw" }}
-                    transition={{ ease: [0.76, 0, 0.24, 1] }} //easing
-                    className="mr-[1vw] w-[7vw] flex item-center rounded-md h-[5.5vw] top-[0.8vw] relative bg-green-500"
+                    transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }} //easing
+                    className="mr-[1vw] w-[7vw] flex item-center rounded-md h-[5.5vw] top-[0.8vw] relative bg-[url('/public/images.jpg')]"
                   ></motion.div>
                 )}
                 <h1 className="flex items-center uppercase text-[6.5vw] leading-[6vw] tracking-tighter font-medium font-[Test_Founders_Gtsk_X-Cond_SmB]">
